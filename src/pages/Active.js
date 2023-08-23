@@ -72,7 +72,7 @@ function Active() {
           </div>
           <div class="col-lg-6 col-md-12 mt-4">
             <div class="d-flex">
-                <i class="fa-solid fa-right-to-bracket fs-1 mx-2"></i> <h2>Finished Projects</h2>
+              <i class="fa-solid fa-right-to-bracket fs-1 mx-2"></i> <h2>Finished Projects</h2>
             </div>
             {finished === '0' ? (
                 <div class="p-6 shadow-lg p-3 mb-5 bg-body rounded" style={{backgroundColor: "white"}}>

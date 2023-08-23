@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Project() {
 
-  // state for the file of the form
+  // state for the file in the form
   const [uploaded, setUploaded] = useState('')
 
   // to get the value of checkbox delievery service
