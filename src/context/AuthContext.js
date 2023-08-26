@@ -41,7 +41,7 @@ export const AuthProvider =({children}) =>{
             setAuthTokens(data)
             //console.log(data.data)
             const varia = jwt_decode(data.access)
-            console.log(varia)
+            //console.log(varia)
             
             setUser(getuser(varia))
             console.log(varia.user_id)

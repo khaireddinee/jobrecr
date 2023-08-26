@@ -15,7 +15,7 @@ import PrivateRouter from './components/PrivateRouter';
 import ForceRedirect from './components/ForceRedirect';
 import Active from './pages/Active';
 import Manage from './pages/Manage';
-import Add from './pages/add';
+import Add from './pages/Add';
 
 function App() {
   
@@ -46,6 +46,7 @@ function App() {
           <PrivateRouter >
           <Manage />
           </PrivateRouter>} />
+
           <Route path="/add" element={
           <PrivateRouter >
           <Add />
